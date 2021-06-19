@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  background-color: lightgray;
+  position: sticky;
+  top: 0;
+}
+nav .logo {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
+nav .menu {
+  width: 40%;
+}
+nav .menu ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+nav .menu ul li.active a {
+  background-color: red;
+  padding: 5px 10px;
+  color: #fff;
+  transition: 0.2s ease;
+}
+nav .menu ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+}
+section {
+  height: 700px;
+  display: flex;
+  justify-content: center;
+}
+h1 {
+  font-size: 3rem;
+  margin-top: 3rem;
+  color: antiquewhite;
+}
+#home {
+  background-image: linear-gradient(to right, red, yellow);
+}
+#about {
+  background-image: linear-gradient(to right, blue, green);
+}
+#contact {
+  background-image: linear-gradient(to right, red, yellow);
+}
+#services {
+  background-image: linear-gradient(to right, blue, green);
+}
